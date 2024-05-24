@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 1.5em;
+    font-family: sans-serif;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+#table-container {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+th, td {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    text-align: left;
+   
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+img {
+    height: auto;
+    max-width: 100px;
+} 
+
+
